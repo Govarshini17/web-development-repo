@@ -1,0 +1,97 @@
+Tech Stack
+Frontend: React + Tailwind CSS
+
+Backend: Node.js + Express
+
+Database: MongoDB (via MongoDB Atlas)
+
+Auth: JWT (JSON Web Tokens)
+
+Version Control: Git & GitHub
+
+Deployment: Vercel (frontend) & Render or Railway (backend)
+
+ Basic Features
+User Authentication
+
+Sign up, log in, log out
+
+Secure with JWT
+
+Skill Listing
+
+Users can post what they can teach and what they want to learn
+
+Matching System
+
+Simple search or filter to match users by skill interests
+
+User Profile
+
+View/edit profile
+
+View exchange history
+
+Messaging Stub (Optional)
+
+Direct users to contact each other via email or external link
+
+GitHub Repository Setup
+Structure:
+pgsql
+Copy
+Edit
+/SkillSwap
+  /client     --> React frontend
+  /server     --> Express backend
+  README.md
+GitHub Collaboration Tips:
+Create a shared repository (team lead or manager creates it)
+
+Use branches: main, frontend, backend, feature/*
+
+Use issues and projects for task tracking
+
+Use Pull Requests (PRs) for merging code with reviews
+
+Milestone Plan (1–2 Weeks)
+Day	Task
+1–2	Project planning, repo setup, role assignment
+3–4	Backend API (Auth, Skill CRUD) + Frontend UI wireframe
+5–6	Connect frontend with backend
+7	Basic matching logic
+8–9	Styling, profile page
+10	Final testing, bug fixing
+11	Deployment
+12	Demo and submission
+
+✅ Example APIs (Express)
+js
+Copy
+Edit
+// POST /api/signup
+// POST /api/login
+// GET /api/skills
+// POST /api/skills
+// GET /api/match?skill=javascript
+🖼️ Wireframe Pages (can use Figma or Draw.io)
+Home Page
+
+Sign Up / Login
+
+Skill Dashboard
+
+Profile Page
+
+Match Results Page
+
+📄 README.md Contents
+Project description
+
+Tech stack
+
+Setup instructions
+
+Contribution guidelines
+
+Live demo link (if deployed)
